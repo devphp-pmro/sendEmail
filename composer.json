@@ -1,0 +1,25 @@
+{
+  "name": "devphp-pmro/send-email",
+  "description": "Simple Send Email Authenticated and Secure",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Leonardo Magalhães",
+      "email": "devphp.pmro@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "ext_lib"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.0.x"
+  }
+}
